@@ -18,7 +18,10 @@ bulib-header, #mobile-menu, .bu-banner-content {
 body { min-width: 350px; }
 
 /* general body styling */
-h1 { font-family: "ApexNew", "Helvetica", sans-serif; }
+h1 { 
+  font-family: "ApexNew", "Helvetica", sans-serif; 
+  font-size: 3em;
+}
 h2 {
   font-family: "VeneerClean-Reg", "Helvetica", sans-serif;
   text-transform: uppercase;
