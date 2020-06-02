@@ -32,8 +32,9 @@
       <div class="banner">
         <span><a href="/">Welcome</a></span>
         <ul class="inline-list secondary-menu">
+          <li><a href="/">welcome</a></li>	
           <li><a href="/collections.html">collections</a></li>
-          <li><a href="/">spaces</a></li>
+          <li><a href="/spaces.html">spaces</a></li>
         </ul>
       </div>
     </div>
@@ -43,8 +44,8 @@
       <div class="bu-banner bu-banner-full-center bu-banner-color-light mvm">
         <div class="bu-banner-media">
           <picture class="bu-banner-img">
-            <source media="(max-width: 499px)"  srcset="img/banner-pardee-461x615.png">
-            <source media="(max-width: 767px)"  srcset="img/banner-pardee-900x615.jpg">
+            <source media="(max-width: 550px)"  srcset="img/banner-pardee-461x615.png">
+            <source media="(max-width: 780px)"  srcset="img/banner-pardee-900x615.jpg">
             <img width="1200" height="675" style="min-height: 315px" class="bu-banner-img" src="img/banner-pardee.png"
               alt="The Pardee Management Library buzzing with patrons, some working together and others on laptops at desks, with stacks and the staircase behind">
           </picture>
@@ -58,32 +59,47 @@
               </form>
             </bulib-search>
             <br />
-            <p class="bu-banner-subtitle">
-              Whether you're <strong>searching</strong> for online content, <strong>browsing</strong> the stacks, or you just looking for somewhere to <strong>study</strong>, 
-              the BU Libraries are <strong class="big-text"><a href="https://askalibrarian.bu.edu" class="white-link bold">here to help</a></strong>
-            </p>
+            <ul class="no-bullet flexw secondary-menu">
+              <li><bulib-card small title="Remote Teaching & Learning" description="Assistance with online education" icon="home_work" link="https://www.bu.edu/disc/"></bulib-card></li>
+              <li><bulib-card small title="Databases List" description="Browse available search engines" icon="sort_by_alpha" link="https://library.bu.edu/az.php"></bulib-card></li>
+              <li><bulib-card small title="Meet a Librarian" description="Schedule an appointment" icon="person" link="https://www.bu.edu/library/services/reference/appointments/"></bulib-card></li>
+            </ul>
           </div>
         </div>
       </div>
 
-      <section id="services">
-        <h2>Services</h2>
+      <section id="research">
+        <h2>Research</h2>
+        <ul class="no-bullet flexw justify-between">
+          <li class="mal"><bulib-card title="Research Guides" description="Get expert guidance on topics and courses" icon="explore" link="https://library.bu.edu/guides"></bulib-card></li>
+          <li class="mal"><bulib-card title="Databases List" description="Browse available search engines" icon="sort_by_alpha" link="https://library.bu.edu/az.php"></bulib-card></li>
+          <li class="mal"><bulib-card title="Digital Scholarship" description="Work with digital humanities" icon="laptop" link="https://www.bu.edu/disc/"></bulib-card></li>
+        </ul>
       </section>
 
+      <section id="services">
+        <h2>Services</h2>
+        <ul class="no-bullet flexw justify-between">
+          <li><bulib-card title="Remote Teaching & Learning" description="Assistance with online education" icon="home_work" link="https://www.bu.edu/disc/"></bulib-card></li>
+          <li><bulib-card title="Scanning & Digitization" description="Request digital versions of physical resources" icon="scanner" link="https://www.bu.edu/disc/"></bulib-card></li>
+          <li><bulib-card title="Course Reserves" description="Request/obtain resources for your course" icon="library_books" link="https://www.bu.edu/disc/"></bulib-card></li>
+        </ul>
+      </section>
+      
       <section id="collections">
         <h2>Collections</h2>
+        <ul class="no-bullet flexw justify-between">
+          <li><bulib-card title="Open BU" description="Dissertations and other BU resources" icon="home_work" link="https://open.bu.edu/"></bulib-card></li>
+          <li><bulib-card title="Archives" description="Howard Gotlieb Archival Research Center" icon="archive" link="http://archives.bu.edu/"></bulib-card></li>
+        </ul>
       </section>
 
       <section id="spaces">
         <h2>Spaces</h2>
-      </section>
-
-      <section id="locations">
-        <h2>Locations</h2>
-      </section>
-
-      <section id="social">
-        <h2>Follow Us</h2>
+        <ul class="no-bullet flexw justify-between">
+          <li><bulib-card title="Reserve a Room" description="Schedule a group meeting" icon="meeting_room" link="http://bu.libcal.com/booking/mugarstudy"></bulib-card></li>
+          <li><bulib-card title="Floorplans" description="Navigate our buildings" icon="map" link="https://www.bu.edu/library/about/maps-floorplans"></bulib-card></li>
+        </ul>
       </section>
     </div>
 

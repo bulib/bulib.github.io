@@ -10,6 +10,12 @@ bulib-header, #mobile-menu, .bu-banner-content {
   padding-left: var(--padding-small); 
   padding-right: var(--padding-small); 
 }
+.bu-banner-content .secondary-menu li { 
+  margin-left: var(--padding-medium); 
+  margin-right: var(--padding-medium); 
+}
+.secondary-menu { color: black; }
+body { min-width: 350px; }
 
 /* general body styling */
 h1 { font-family: "ApexNew", "Helvetica", sans-serif; }
@@ -32,7 +38,6 @@ section:nth-child(even){ background: white; }
 /* welcome banner */ 
 #main-content .bu-banner { width: 100% !important; }
 .bu-banner-media { max-height: 500px; }
-.bu-banner-title-wrapper { width: 90%; max-height: 60vh !important; }
 h1.bu-banner-title { 
   font-weight: 700;
   font-size: 6vw;
@@ -52,7 +57,6 @@ h1.bu-banner-title {
   margin: 0px auto 0px auto;
   justify-content: space-evenly; 
   text-align: center;
-  width: 60%;
 } 
 .bu-banner-content a:hover { color: var(--color-accent-red-background, red); }
 
@@ -78,6 +82,12 @@ section a img:hover { cursor: pointer; filter: brightness(90%); }
 /* rounded corners on the sectondary menu */
 .secondary-menu { border-radius: var(--padding-small, 5px); }
 
-.left { justify-content: flex-start !important; }
-.right { justify-content: flex-end !important; }
 
+.left, .justify-left { justify-content: flex-start !important; }
+.right, .justify-right { justify-content: flex-end !important; }
+.justify-between { justify-content: space-between !important; }
+.justify-evenly { justify-content: space-evenly !important; }
+
+.justify-table { display: table; }
+.justify-table > *:nth-child(even) { display: table-row; }
+.justify-table > *:nth-child(odd) { display: table-cell; }

@@ -18,7 +18,7 @@ export default class BULibHeader extends LitElement {
             <ul class="menu-items">	
               <li id="subsite-research"><a href="https://www.bu.edu/library/research">Research</a></li>	
               <li id="subsite-services"><a href="https://www.bu.edu/library/services">Services</a></li>	
-              <li id="subsite-about"><a href="https://www.bu.edu/library/">About</a></li>	
+              <li id="subsite-about"><a href="https://www.bu.edu/library/about">About</a></li>	
               <!-- <li id="subsite-guides"><a href="https://library.bu.edu/guides">Guides</a></li> -->	
               <li id="subsite-help"><a href="https://askalibrarian.bu.edu/">Help</a></li>	
             </ul>	
