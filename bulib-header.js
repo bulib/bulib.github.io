@@ -23,28 +23,28 @@ export default class BULibHeader extends LitElement {
                       <li>
                         <ul class="no-bullet" tabindex="0">
                           <span>FIND</span>
-                          <li><a>Search</a></li>
-                          <li><a>Databases A-Z</a></li>
-                          <li><a>Course Materials</a></li>
-                          <li><a>eJournals</a></li>
-                          <li><a>WorldCat Discovery</a></li>
+                          <li><a href="https://www.bu.edu/library/search">Search</a></li>
+                          <li><a href="https://library.bu.edu/az.php">Databases A-Z</a></li>
+                          <li><a href="https://www.bu.edu/library/services/reserves/">Course Materials</a></li>
+                          <li><a href="https://buprimo.hosted.exlibrisgroup.com/primo-explore/search?vid=journals&lang=en_US">eJournals</a></li>
+                          <li><a href="http://bu.on.worldcat.org/">WorldCat Discovery</a></li>
                         </ul>
                       </li>
                       <li>
                         <ul class="no-bullet" tabindex="0">
                           <span>COLLECTIONS</span>
-                          <li><a>OpenBU</a></li>
-                          <li><a>Theses &amp; Dissertations</a></li>
-                          <li><a>Archives</a></li>
-                          <li><a>Krasker Film / Video</a></li>
+                          <li><a href="https://open.bu.edu/">OpenBU</a></li>
+                          <li><a href="https://open.bu.edu/handle/2144/8520">Theses &amp; Dissertations</a></li>
+                          <li><a href="http://archives.bu.edu/">Archives</a></li>
+                          <li><a href="http://www.bu.edu/library/mugar-memorial/research/krasker-filmvideo/">Krasker Film / Video</a></li>
                         </ul>
                       </li>
                       <li>
                         <ul class="no-bullet" tabindex="0">
                           <span>BORROWING</span>
-                          <li><a>Borrowing</a></li>
-                          <li><a>Circulation</a></li>
-                          <li><a>Inter-Library Borrowing</a></li>
+                          <li><a href="https://www.bu.edu/library/services/borrowing/">Borrowing</a></li>
+                          <li><a href="https://www.bu.edu/library/services/circulation/">Circulation</a></li>
+                          <li><a href="https://www.bu.edu/library/services/ill/">Inter-Library Borrowing</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -57,22 +57,22 @@ export default class BULibHeader extends LitElement {
                       <li>
                         <ul class="no-bullet" tabindex="0">
                           <span>SUPPORT</span>
-                          <li><a>Ask a Librarian</a></li>
-                          <li><a>Make an Appointment</a></li>
-                          <li><a>Writing Center</a></li>
-                          <li><a>For Faculty</a></li>
-                          <li><a>For Alumni</a></li>
-                          <li><a>For Graduate Students</a></li>
+                          <li><a href="https://askalibrarian.bu.edu/">Ask a Librarian</a></li>
+                          <li><a href="https://www.bu.edu/library/services/reference/appointments/">Make an Appointment</a></li>
+                          <li><a href="https://www.bu.edu/library/services/reference/writing-centers/">Writing Center</a></li>
+                          <li><a href="https://www.bu.edu/library/services/for-faculty/">For Faculty</a></li>
+                          <li><a href="https://www.bu.edu/library/services/alumni/">For Alumni</a></li>
+                          <li><a href="https://www.bu.edu/library/services/for-graduate-students/">For Graduate Students</a></li>
                         </ul>
                       </li>
                       <li>
                         <ul class="no-bullet"  tabindex="0">
                           <span>GUIDES</span>
-                          <li><a>Research Guides</a></li>
-                          <li><a>Course Guides</a></li>
-                          <li><a>How-To Guides</a></li>
-                          <li><a>Using the Libraries Online</a></li>
-                          <li><a>Creating Bibliographies</a></li>
+                          <li><a href="https://library.bu.edu/guides/">Research Guides</a></li>
+                          <li><a href="https://www.bu.edu/library/research/guides/course-guides/">Course Guides</a></li>
+                          <li><a href="https://www.bu.edu/library/help/how-to/">How-To Guides</a></li>
+                          <li><a href="https://www-staging.bu.edu/library/help/using-the-libraries-online/">Using the Libraries Online</a></li>
+                          <li><a href="https://library.bu.edu/create_bibliographies">Creating Bibliographies</a></li>
                         </ul>
                       </li>
                       <!-- <li>
@@ -88,10 +88,10 @@ export default class BULibHeader extends LitElement {
                       <li>
                         <ul class="no-bullet" tabindex="0">
                           <span>SERVICES</span>
-                          <li><a>Scanning &amp; Delivery</a></li>
-                          <li><a>Course Reserves</a></li>
-                          <li><a>Digital Scholarship</a></li>
-                          <li><a>Data Services</a></li>
+                          <li><a href="https://www.bu.edu/library/services/scanning-delivery-services/">Scanning &amp; Delivery</a></li>
+                          <li><a href="https://www.bu.edu/library/services/reserves/">Course Reserves</a></li>
+                          <li><a href="https://www.bu.edu/disc/">Digital Scholarship</a></li>
+                          <li><a href="https://www.bu.edu/data/">Data Services</a></li>
                         </ul>
                       </li>
                     </ul>
@@ -104,21 +104,21 @@ export default class BULibHeader extends LitElement {
                       <li>
                         <ul class="no-bullet" tabindex="0">
                           <span>SPACES</span>
-                          <li><a>Library &amp; Service Hours</a></li>
+                          <li><a href="https://www.bu.edu/library/about/hours/">Library &amp; Service Hours</a></li>
                           <li><a>Visiting the Libraries</a></li>
-                          <li><a>Study Rooms &amp; Spaces</a></li>
-                          <li><a>Maps &amp; Floorplans</a></li>
-                          <li><a>Computers, Printing, Scanning</a></li>
+                          <li><a href="https://www.bu.edu/library/about/study-spaces/">Study Rooms &amp; Spaces</a></li>
+                          <li><a href="https://www.bu.edu/library/about/maps-floorplans/">Maps &amp; Floorplans</a></li>
+                          <li><a href="https://www.bu.edu/library/services/computers-and-printing/">Computers, Printing, Scanning</a></li>
                         </ul>
                       </li>
                       <li>
                         <ul class="no-bullet" tabindex="0">
                           <span>INFO</span>
-                          <li><a>News</a></li>
-                          <li><a>Staff Directory A-Z</a></li>
-                          <li><a>About BU Libraries</a></li>
+                          <li><a href="https://www.bu.edu/library/about/news/">News</a></li>
+                          <li><a href="https://www.bu.edu/library/about/who-we-are/staff-directory/">Staff Directory A-Z</a></li>
+                          <li><a href="https://www.bu.edu/library/about">About BU Libraries</a></li>
                           <li><a>Events Calendar</a></li>
-                          <li><a>Code of Conduct</a></li>
+                          <li><a href="https://www.bu.edu/library/about/code-of-conduct/">Code of Conduct</a></li>
                         </ul> 
                       </li> 
                     </ul>
@@ -155,7 +155,6 @@ export default class BULibHeader extends LitElement {
                           <li><a href="https://www.bu.edu/ah/vrc/" target="_blank" rel="noopener">Visual Resources Center</a></li>  
                         </ul>
                       </li>
-
                     </ul>
                   </div>
                 </li> 
