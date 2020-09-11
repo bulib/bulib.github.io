@@ -8,6 +8,31 @@
 This repository is a bit of a catch-all at the moment related to internal development. It's used mostly as
   a test-bed for rapid-prototyping and free hosting of websites. It also contains some additional
   onboarding documentation, troubleshooting, and a script for setting up the development environment.
+
+## Static Sites
+
+### Advantages
+
+There are a number of reasons we do/would make use of static sites and Single Page Apps (SPAs) at BU Libraries:
+
+- they're very **easy to deploy** and to understand,
+- they're **cheap** (or even free) to host,
+- they're **low-risk**, since little can "go wrong" in terms of dependencies or updates,
+- and they require far **less maintenance** than running servers
+
+### Workflow, Deployment, and Hosting
+
+- we run static sites **locally** via an `npm run start` command via `es-dev-server` (a lightweight host fluent in modern js)
+- for **staging**, we use [GitHub pages](https://pages.github.com/) on `bulib.github.io`.
+  - this is because it's easy, there's a lot of documentation for how this is done, and it's free
+  - this repository is vanilla and runs off of master (`bulib.github.io`) at the base/root as the default
+  - [firstyear](https://github.com/bulib/firstyear/settings) uses master as well, but at the path prefaced by its repo name `bulib.github.io/firstyear`
+  - [bulib-wc](https://bulib.github.io/bulib-wc/) is hosted from its `gh-pages` branch after a storybook-assisted build step
+- **production** hosting is set up by IS&T and can be placed at most subpaths of `www.bu.edu/library` (e.g. `www.bu.edu/library/firstyear`)
+  - [`firstyear/deploy.sh`](https://github.com/bulib/firstyear/blob/master/deploy.sh) is an example of a simple prod deployment script
+  - jira tickets [FYOS-2](https://bulibrary.atlassian.net/browse/FYOS-2) and [FYOS-3](https://bulibrary.atlassian.net/browse/FYOS-3)
+    have some background information on how to coordinate with IS&T to establish the space and authorize the upload
+
 ## Setting Up Your Development Environment
 
 We've made a **`bootstrap.sh`** script to help setup a new developer to work with our repositories. This script
