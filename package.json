@@ -1,8 +1,8 @@
 {
   "name": "bulib-welcome",
-  "description": "welcome site for the BU libraries and a playground for static site development",
+  "description": "welcome site for BU Libraries Web Services Team and a playground for static site development",
   "devDependencies": {
-    "bulib-wc": "0.1.32",
+    "bulib-wc": "0.1.56",
     "es-dev-server": "^1.48.1"
   },
   "scripts": {
