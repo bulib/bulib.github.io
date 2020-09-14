@@ -28,6 +28,7 @@ There are a number of reasons we do/would make use of static sites and Single Pa
   - this repository is vanilla and runs off of master (`bulib.github.io`) at the base/root as the default
   - [firstyear](https://github.com/bulib/firstyear/settings) uses master as well, but at the path prefaced by its repo name `bulib.github.io/firstyear`
   - [bulib-wc](https://bulib.github.io/bulib-wc/) is hosted from its `gh-pages` branch after a storybook-assisted build step
+    (deploy-storybook [`storybook-to-ghpages`](https://github.com/storybookjs/storybook-deployer#storybook-deployer))
 - **production** hosting is set up by IS&T and can be placed at most subpaths of `www.bu.edu/library` (e.g. `www.bu.edu/library/firstyear`)
   - [`firstyear/deploy.sh`](https://github.com/bulib/firstyear/blob/master/deploy.sh) is an example of a simple prod deployment script
   - jira tickets [FYOS-2](https://bulibrary.atlassian.net/browse/FYOS-2) and [FYOS-3](https://bulibrary.atlassian.net/browse/FYOS-3)
@@ -35,12 +36,20 @@ There are a number of reasons we do/would make use of static sites and Single Pa
 
 ## Setting Up Your Development Environment
 
-We've made a **`bootstrap.sh`** script to help setup a new developer to work with our repositories. This script
-  will install the dependencies, clone various repositories, and aid in the configuration/credentialing.
+We've made a **`bootstrap.sh`** script to help setup a new developer to work with our repositories.
+
+It will install the dependencies, clone various repositories, and aid in the configuration/credentialing.
+
+To run the script, open a terminal and run the following commands to:
+
+1. download the most recent version of the script from `bulib/bulib.github.io`.
+2. make the downloaded script executable (give permissions to run as a script)
+3. execute the bash script
 
 ```bash
+$ wget https://raw.githubusercontent.com/bulib/bulib.github.io/master/bootstrap.sh
 $ chmod +x bootstrap.sh
-$ bootstrap.sh
+$ ./bootstrap.sh
 ```
 
 It should be run (ideally) once in the first week of orientation (or when starting development work) to get
