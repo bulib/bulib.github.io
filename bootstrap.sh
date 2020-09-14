@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # -- install software and dependencies -- #
 
 # install xcode (development suite for Mac OSX)
@@ -16,12 +17,17 @@ echo "installing python (and pip)..."
 brew install python
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py
 
+echo "installing pip packages..."
+pip install jupyter   # enable jupyter notebooks development (e.g. 'bulib/playground')
+pip install requests  # handy library for calling APIs from python scripts (e.g. 'bulib/metadata-workbench')
+
 # install node/npm
 echo "installing node (and npm)..."
 brew install node
 
-npm install -g es-dev-server  # static site development/running locally
-npm install -g cypress        # running tests across repositories
+echo "installing global npm packages..."
+npm install -g es-dev-server  # static site development/running locally (e.g. 'bulib/firstyear')
+npm install -g cypress        # running tests across repositories (e.g. 'bulib/bulib-wc', 'bulib/primo-explore-devenv-bu')
 
 
 # -- configure accounts -- #
