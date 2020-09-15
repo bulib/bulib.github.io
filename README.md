@@ -47,8 +47,8 @@ To run the script, open a terminal and run the following commands to:
 3. execute the bash script
 
 ```bash
-$ wget https://raw.githubusercontent.com/bulib/bulib.github.io/master/bootstrap.sh
-$ chmod +x bootstrap.sh
+$ curl https://raw.githubusercontent.com/bulib/bulib.github.io/master/bootstrap.sh > bootstrap.sh
+$ chmod +x ./bootstrap.sh
 $ ./bootstrap.sh
 ```
 
